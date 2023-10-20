@@ -1,4 +1,4 @@
-![piper-banner](https://github.com/CanTalat-Yakan/USD.NET/assets/57494543/8f92064c-7ad6-4df4-be18-e19d852b86fd)
+![piper-banner](https://raw.githubusercontent.com/CanTalat-Yakan/USD.NET/main/Header.png)
 
 # Universal Scene Description (USD.NET)
 Universal Scene Description (USD) by Pixar translated by Unity.
