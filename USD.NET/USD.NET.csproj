@@ -16,7 +16,7 @@
 		<PackageIcon>USDLogo400x400.png</PackageIcon>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageTags>Universal Scene Description USD</PackageTags>
-		<Version>1.1.1</Version>
+		<Version>1.2.0</Version>
 	</PropertyGroup>
 
 	<ItemGroup>
