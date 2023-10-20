@@ -1,7 +1,7 @@
 ![piper-banner](https://raw.githubusercontent.com/CanTalat-Yakan/USD.NET/main/Header.png)
 
 # Universal Scene Description (USD.NET)
-Universal Scene Description (USD) by Pixar translated by Unity.
+Universal Scene Description (USD) by Pixar and translated by Unity.
 
 * USD is a high-performance extensible software platform for collaboratively constructing animated 3D scenes, designed to meet the needs of large-scale film and visual effects production.
 * USD enables robust interchange between digital content creation tools with its expanding set of schemas, covering domains like geometry, shading, lighting, and physics.
