@@ -1,7 +1,13 @@
 # USD.NET
-Universal Scene Description (USD) by Pixar
+Universal Scene Description (USD) by Pixar translated by Unity
 
-# Unity
-The USD.NET was copied from the Unity Repository - https://github.com/Unity-Technologies/usd-unity-sdk
+## [Unity](https://github.com/Unity-Technologies/usd-unity-sdk)
+This USD.NET Project was copied from the USD-Unity-SDK Repository by Unity.
 
-I extracted the necessary files only and made the DLLs pack inside the runtimes win-x64 folder.
+I isolated the essential files and then included the DLLs.
+
+## [NuGet](https://www.nuget.org/packages/UniversalSceneDescription)
+
+```Batch
+dotnet add package UniversalSceneDescription
+```
