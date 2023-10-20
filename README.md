@@ -9,6 +9,8 @@ Universal Scene Description (USD) by Pixar translated by Unity.
 
 [Introduction to USD](https://openusd.org/release/intro.html) - [Tutorial](https://openusd.org/release/tut_usd_tutorials.html) - [FAQ](https://openusd.org/release/usdfaq.html) - [Toolset](https://openusd.org/release/toolset.html)
 
+[Demo Assets](https://openusd.org/release/dl_downloads.html#assets)
+
 ## [Unity](https://github.com/Unity-Technologies/usd-unity-sdk)
 This USD.NET Project was copied from the USD-Unity-SDK Repository by Unity.
 
