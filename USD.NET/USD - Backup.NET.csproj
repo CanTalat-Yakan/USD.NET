@@ -12,7 +12,7 @@
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<Authors>Pixar, Unity, 3DEngine</Authors>
 		<PackageProjectUrl>https://openusd.org/release/index.html</PackageProjectUrl>
-		<RepositoryUrl>https://github.com/CanTalat-Yakan/USD.NET</RepositoryUrl>
+		<RepositorytUrl>https://github.com/CanTalat-Yakan/USD.NET</RepositorytUrl>
 		<PackageIcon>USDLogo400x400.png</PackageIcon>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageTags>Universal Scene Description USD</PackageTags>
