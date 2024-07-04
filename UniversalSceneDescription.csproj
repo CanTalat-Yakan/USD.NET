@@ -1,0 +1,175 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Title>Universal Scene Description for .NET</Title>
+		<PackageId>UniversalSceneDescription</PackageId>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<Authors>Pixar, Unity, 3DEngine</Authors>
+		<PackageProjectUrl>https://openusd.org/release/index.html</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/CanTalat-Yakan/USD.NET</RepositoryUrl>
+		<PackageIcon>USDLogo400x400.png</PackageIcon>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageTags>Universal Scene Description USD.NET</PackageTags>
+		<Version>2.8.0</Version>
+		<ApplicationIcon>favicon.ico</ApplicationIcon>
+		<PackageReleaseNotes>OpenUSD DLLs for .Net from the Unity USD C# SDK com.unity.usd.core</PackageReleaseNotes>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Content Include="DLLs\Alembic.dll">
+			<PackagePath>runtimes/win-x64/native</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="DLLs\Imath.dll">
+			<PackagePath>runtimes/win-x64/native</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="DLLs\lib_burst_generated.dll">
+			<PackagePath>runtimes/win-x64/native</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="DLLs\tbb.dll">
+			<PackagePath>runtimes/win-x64/native</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="DLLs\usdAbc.dll">
+			<PackagePath>runtimes/win-x64/native</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="DLLs\UsdCs.dll">
+			<PackagePath>runtimes/win-x64/native</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="DLLs\usd_ar.dll">
+			<PackagePath>runtimes/win-x64/native</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="DLLs\usd_arch.dll">
+			<PackagePath>runtimes/win-x64/native</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="DLLs\usd_gf.dll">
+			<PackagePath>runtimes/win-x64/native</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="DLLs\usd_js.dll">
+			<PackagePath>runtimes/win-x64/native</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="DLLs\usd_kind.dll">
+			<PackagePath>runtimes/win-x64/native</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="DLLs\usd_ndr.dll">
+			<PackagePath>runtimes/win-x64/native</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="DLLs\usd_pcp.dll">
+			<PackagePath>runtimes/win-x64/native</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="DLLs\usd_plug.dll">
+			<PackagePath>runtimes/win-x64/native</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="DLLs\usd_sdf.dll">
+			<PackagePath>runtimes/win-x64/native</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="DLLs\usd_sdr.dll">
+			<PackagePath>runtimes/win-x64/native</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="DLLs\usd_tf.dll">
+			<PackagePath>runtimes/win-x64/native</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="DLLs\usd_trace.dll">
+			<PackagePath>runtimes/win-x64/native</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="DLLs\usd_usd.dll">
+			<PackagePath>runtimes/win-x64/native</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="DLLs\usd_usdgeom.dll">
+			<PackagePath>runtimes/win-x64/native</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="DLLs\usd_usdlux.dll">
+			<PackagePath>runtimes/win-x64/native</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="DLLs\usd_usdri.dll">
+			<PackagePath>runtimes/win-x64/native</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="DLLs\usd_usdshade.dll">
+			<PackagePath>runtimes/win-x64/native</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="DLLs\usd_usdskel.dll">
+			<PackagePath>runtimes/win-x64/native</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="DLLs\usd_usdutils.dll">
+			<PackagePath>runtimes/win-x64/native</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="DLLs\usd_usdvol.dll">
+			<PackagePath>runtimes/win-x64/native</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="DLLs\usd_vt.dll">
+			<PackagePath>runtimes/win-x64/native</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="DLLs\usd_work.dll">
+			<PackagePath>runtimes/win-x64/native</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Include="favicon.ico" />
+		<EmbeddedResource Include="USDLogo400x400.png">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</EmbeddedResource>
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Update="USDLogo400x400.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="USD.NET.dll">
+			<PackagePath>lib\net8.0\</PackagePath>
+			<Pack>true</Pack>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="USD.NET">
+			<HintPath>USD.NET.dll</HintPath>
+		</Reference>
+
+		<None Update="USD.NET.dll">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<Pack>true</Pack>
+		</None>
+	</ItemGroup>
+
+</Project>
