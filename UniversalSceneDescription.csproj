@@ -16,7 +16,7 @@
 		<PackageIcon>USDLogo400x400.png</PackageIcon>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageTags>Universal Scene Description USD.NET</PackageTags>
-		<Version>2.8.0</Version>
+		<Version>4.0.0</Version>
 		<ApplicationIcon>favicon.ico</ApplicationIcon>
 		<PackageReleaseNotes>OpenUSD DLLs for .Net from the Unity USD C# SDK com.unity.usd.core</PackageReleaseNotes>
 	</PropertyGroup>
@@ -27,10 +27,6 @@
 			<Pack>true</Pack>
 		</Content>
 		<Content Include="DLLs\Imath.dll">
-			<PackagePath>runtimes/win-x64/native</PackagePath>
-			<Pack>true</Pack>
-		</Content>
-		<Content Include="DLLs\lib_burst_generated.dll">
 			<PackagePath>runtimes/win-x64/native</PackagePath>
 			<Pack>true</Pack>
 		</Content>
@@ -132,6 +128,189 @@
 		</Content>
 		<Content Include="DLLs\usd_work.dll">
 			<PackagePath>runtimes/win-x64/native</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+	</ItemGroup>
+
+	<ItemGroup>
+		<Content Include="USD\ar\resources\plugInfo.json">
+			<PackagePath>runtimes/win-x64/native/usd/ar/resources/plugInfo.json</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\ndr\resources\plugInfo.json">
+			<PackagePath>runtimes/win-x64/native/usd/ndr/resources/plugInfo.json</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\plugInfo.json">
+			<PackagePath>runtimes/win-x64/native/usd/plugInfo.json</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\sdf\resources\plugInfo.json">
+			<PackagePath>runtimes/win-x64/native/usd/sdf/resources/plugInfo.json</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\usdGeom\resources\generatedSchema.usda">
+			<PackagePath>runtimes/win-x64/native/usd/usdGeom/resources/generatedSchema.usda</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\usdGeom\resources\plugInfo.json">
+			<PackagePath>runtimes/win-x64/native/usd/usdGeom/resources/plugInfo.json</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\usdGeom\resources\usdGeom\schema.usda">
+			<PackagePath>runtimes/win-x64/native/usd/usdGeom/resources/usdGeom/schema.usda</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\usdHydra\resources\generatedSchema.usda">
+			<PackagePath>runtimes/win-x64/native/usd/usdHydra/resources/generatedSchema.usda</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\usdHydra\resources\plugInfo.json">
+			<PackagePath>runtimes/win-x64/native/usd/usdHydra/resources/plugInfo.json</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\usdHydra\resources\shaders\empty.glslfx">
+			<PackagePath>runtimes/win-x64/native/usd/usdHydra/resources/shaders/empty.glslfx</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\usdHydra\resources\shaders\shaderDefs.usda">
+			<PackagePath>runtimes/win-x64/native/usd/usdHydra/resources/shaders/shaderDefs.usda</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\usdHydra\resources\usdHydra\schema.usda">
+			<PackagePath>runtimes/win-x64/native/usd/usdHydra/resources/usdHydra/schema.usda</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\usdLux\resources\generatedSchema.usda">
+			<PackagePath>runtimes/win-x64/native/usd/usdLux/resources/generatedSchema.usda</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\usdLux\resources\plugInfo.json">
+			<PackagePath>runtimes/win-x64/native/usd/usdLux/resources/plugInfo.json</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\usdLux\resources\usdLux\schema.usda">
+			<PackagePath>runtimes/win-x64/native/usd/usdLux/resources/usdLux/schema.usda</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\usdMedia\resources\generatedSchema.usda">
+			<PackagePath>runtimes/win-x64/native/usd/usdMedia/resources/generatedSchema.usda</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\usdMedia\resources\plugInfo.json">
+			<PackagePath>runtimes/win-x64/native/usd/usdMedia/resources/plugInfo.json</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\usdMedia\resources\usdMedia\schema.usda">
+			<PackagePath>runtimes/win-x64/native/usd/usdMedia/resources/usdMedia/schema.usda</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\usdPhysics\resources\generatedSchema.usda">
+			<PackagePath>runtimes/win-x64/native/usd/usdPhysics/resources/generatedSchema.usda</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\usdPhysics\resources\plugInfo.json">
+			<PackagePath>runtimes/win-x64/native/usd/usdPhysics/resources/plugInfo.json</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\usdPhysics\resources\usdPhysics\schema.usda">
+			<PackagePath>runtimes/win-x64/native/usd/usdPhysics/resources/usdPhysics/schema.usda</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\usdProc\resources\generatedSchema.usda">
+			<PackagePath>runtimes/win-x64/native/usd/usdProc/resources/generatedSchema.usda</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\usdProc\resources\plugInfo.json">
+			<PackagePath>runtimes/win-x64/native/usd/usdProc/resources/plugInfo.json</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\usdProc\resources\usdProc\schema.usda">
+			<PackagePath>runtimes/win-x64/native/usd/usdProc/resources/usdProc/schema.usda</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\usdRender\resources\generatedSchema.usda">
+			<PackagePath>runtimes/win-x64/native/usd/usdRender/resources/generatedSchema.usda</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\usdRender\resources\plugInfo.json">
+			<PackagePath>runtimes/win-x64/native/usd/usdRender/resources/plugInfo.json</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\usdRender\resources\usdRender\schema.usda">
+			<PackagePath>runtimes/win-x64/native/usd/usdRender/resources/usdRender/schema.usda</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\usdRi\resources\generatedSchema.usda">
+			<PackagePath>runtimes/win-x64/native/usd/usdRi/resources/generatedSchema.usda</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\usdRi\resources\plugInfo.json">
+			<PackagePath>runtimes/win-x64/native/usd/usdRi/resources/plugInfo.json</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\usdRi\resources\usdRi\schema.usda">
+			<PackagePath>runtimes/win-x64/native/usd/usdRi/resources/usdRi/schema.usda</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\usdShade\resources\generatedSchema.usda">
+			<PackagePath>runtimes/win-x64/native/usd/usdShade/resources/generatedSchema.usda</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\usdShade\resources\plugInfo.json">
+			<PackagePath>runtimes/win-x64/native/usd/usdShade/resources/plugInfo.json</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\usdShade\resources\usdShade\schema.usda">
+			<PackagePath>runtimes/win-x64/native/usd/usdShade/resources/usdShade/schema.usda</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\usdSkel\resources\generatedSchema.usda">
+			<PackagePath>runtimes/win-x64/native/usd/usdSkel/resources/generatedSchema.usda</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\usdSkel\resources\plugInfo.json">
+			<PackagePath>runtimes/win-x64/native/usd/usdSkel/resources/plugInfo.json</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\usdSkel\resources\usdSkel\schema.usda">
+			<PackagePath>runtimes/win-x64/native/usd/usdSkel/resources/usdSkel/schema.usda</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\usdUI\resources\generatedSchema.usda">
+			<PackagePath>runtimes/win-x64/native/usd/usdUI/resources/generatedSchema.usda</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\usdUI\resources\plugInfo.json">
+			<PackagePath>runtimes/win-x64/native/usd/usdUI/resources/plugInfo.json</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\usdUI\resources\usdUI\schema.usda">
+			<PackagePath>runtimes/win-x64/native/usd/usdUI/resources/usdUI/schema.usda</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\usdVol\resources\generatedSchema.usda">
+			<PackagePath>runtimes/win-x64/native/usd/usdVol/resources/generatedSchema.usda</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\usdVol\resources\plugInfo.json">
+			<PackagePath>runtimes/win-x64/native/usd/usdVol/resources/plugInfo.json</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\usdVol\resources\usdVol\schema.usda">
+			<PackagePath>runtimes/win-x64/native/usd/usdVol/resources/usdVol/schema.usda</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\usd\resources\generatedSchema.usda">
+			<PackagePath>runtimes/win-x64/native/usd/usd/resources/generatedSchema.usda</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\usd\resources\plugInfo.json">
+			<PackagePath>runtimes/win-x64/native/usd/usd/resources/plugInfo.json</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="USD\usd\resources\usd\schema.usda">
+			<PackagePath>runtimes/win-x64/native/usd/usd/resources/usd/schema.usda</PackagePath>
 			<Pack>true</Pack>
 		</Content>
 	</ItemGroup>
