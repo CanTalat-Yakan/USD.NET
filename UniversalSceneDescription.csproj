@@ -37,11 +37,9 @@
 
 	<ItemGroup>
 		<Content Include="DLLs\**\*">
-			<PackagePath>runtimes/win-x64/native/</PackagePath>
 			<Pack>true</Pack>
 		</Content>
 		<Content Include="USD\**\*">
-			<PackagePath>runtimes/win-x64/native/usd</PackagePath>
 			<Pack>true</Pack>
 		</Content>
 	</ItemGroup>
