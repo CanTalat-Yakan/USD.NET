@@ -1,0 +1,24 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<UsingTask TaskName="GetPackageDirectory" AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.Core.dll" />
+
+	<Target Name="CopyUSDDependencies" AfterTargets="Build">
+		<!-- Find the NuGet package directory dynamically -->
+		<GetPackageDirectory PackageId="universalscenedescription" Condition="'$(NuGetPackageRoot)' != ''">
+			<Output TaskParameter="PackageDirectory" PropertyName="USDPackageDirectory" />
+		</GetPackageDirectory>
+
+		<!-- Ensure the PackageDirectory has been resolved -->
+		<Error Condition="'$(USDPackageDirectory)' == ''" Text="The Universal Scene Description package directory could not be found." />
+
+		<!-- Define the OpenUSD dependencies to be copied -->
+		<ItemGroup>
+			<USDDependencies Include="$(USDPackageDirectory)\USD\**\*" />
+		</ItemGroup>
+
+		<!-- Custom Target to copy OpenUSD dependencies while maintaining the folder structure -->
+		<Copy
+		  SourceFiles="@(USDDependencies)"
+		  DestinationFolder="$(OutputPath)\USD\%(RecursiveDir)"
+		  SkipUnchangedFiles="true" />
+	</Target>
+</Project>
