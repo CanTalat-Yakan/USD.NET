@@ -35,18 +35,18 @@ Extract the required native DLLs and the USD.NET managed DLL by following these 
 
 - **Native DLLs:** Obtained from the build path:
   ```
-  Your_Build_Path/USD_Data/Plugins/x86_64/...
+  YourBuildPath/ProjectName_Data/Plugins/x86_64/...
   ```
 - **Managed DLL (USD.NET):** Obtained from the build path:
   ```
-  Your_Build_Path/USD_Data/Managed/USD.NET.dll
+  YourBuildPath/ProjectName_Data/Managed/USD.NET.dll
   ```
 
 ### Additional Required Files
 
 You will also need USDA files for schemas and JSON files for `plugInfo`. These can be found in the following Unity Project path:
 ```
-Your_Unity_Project_Path\Library\PackageCache\com.unity.usd.core\Runtime\Plugins\x86_64\Windows\lib\usd\...
+YourUnityProjectPath\Library\PackageCache\com.unity.usd.core\Runtime\Plugins\x86_64\Windows\lib\usd\...
 ```
 
 ### Creating the NuGet Package
